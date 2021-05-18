@@ -1,4 +1,6 @@
 <?php
+require_once './utente.php';
+
   class Premium extends Utente {
     public $sconto_premium;
 

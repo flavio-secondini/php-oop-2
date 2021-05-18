@@ -1,10 +1,10 @@
 <?php
  class Utente {
-   private $nome;
-   private $cognome;
-   private $carta_credito;
+   protected $nome;
+   protected $cognome;
+   protected $carta_credito;
 
-   private $prodotti = []; //prodotti comprati dall'utente
+   protected $prodotti = []; //prodotti comprati dall'utente
 
    public function __construct ($nome, $cognome, $carta_credito) {
      $this->nome = $nome;
